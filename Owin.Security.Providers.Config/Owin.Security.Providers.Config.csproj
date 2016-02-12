@@ -43,7 +43,6 @@
     <Compile Include="DoYouBuzzConfigurationElement.cs" />
     <Compile Include="EmailTwoFactorAuthenticationConfigurationElement.cs" />
     <Compile Include="FacebookConfigurationElement.cs" />
-    <Compile Include="GoogleAPIConfigurationElement.cs" />
     <Compile Include="GoogleConfigurationElement.cs" />
     <Compile Include="LinkedInConfigurationElement.cs" />
     <Compile Include="MicrosoftConfigurationElement.cs" />
