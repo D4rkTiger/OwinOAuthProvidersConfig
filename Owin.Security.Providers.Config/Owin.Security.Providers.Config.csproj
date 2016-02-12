@@ -39,8 +39,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="DoYouBuzzConfigurationElement.cs" />
+    <Compile Include="EmailTwoFactorAuthenticationConfigurationElement.cs" />
+    <Compile Include="FacebookConfigurationElement.cs" />
+    <Compile Include="GoogleAPIConfigurationElement.cs" />
+    <Compile Include="GoogleConfigurationElement.cs" />
+    <Compile Include="LinkedInConfigurationElement.cs" />
+    <Compile Include="MicrosoftConfigurationElement.cs" />
+    <Compile Include="OwinConfigSection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMSTwoFactorAuthenticationConfigurationElement.cs" />
+    <Compile Include="TwitterConfigurationElement.cs" />
+    <Compile Include="XingConfigurationElement.cs" />
+    <Compile Include="YammerConfigurationElement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OwinConfigSectionSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
